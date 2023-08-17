@@ -1,11 +1,11 @@
 --
--- Create User: Yvonne
+-- Create User: Jeff
 --
-CREATE USER IF NOT EXISTS `yvonne`@`%` IDENTIFIED BY '5trathm0re' 
+CREATE USER IF NOT EXISTS `jeff`@`%` IDENTIFIED BY '5trathm0re' 
 WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 ;
 
-GRANT USAGE ON * . * TO `yvonne`@`%`;
-GRANT EXECUTE, SELECT ON `notice_board`.* TO `yvonne`@`%`;
+GRANT USAGE ON * . * TO `jeff`@`%`;
+GRANT EXECUTE, SELECT ON `notice_board`.* TO `jeff`@`%`;
 
 --
 -- Database: `notice_board`
